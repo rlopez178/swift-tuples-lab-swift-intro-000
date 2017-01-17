@@ -17,18 +17,14 @@
 // write your code here
 
 
-
-
-
-
-
+var person = (name: "Great Bibbidy", age: 12647)
 
 /*: question2
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
 
-
+print("\(person.name) is \(person.age) years of age")
 
 
 
@@ -41,8 +37,7 @@
 // write your code here
 
 
-
-
+person.age += 1
 
 
 
@@ -54,7 +49,7 @@
 
 
 
-
+print("Happy \(person.age)th birthday, \(person.name)")
 
 
 
@@ -65,7 +60,7 @@
 // write your code here
 
 
-
+var someone = (name: "Bajin Poo", age: -83628476278648)
 
 
 
@@ -78,7 +73,7 @@
 
 
 
-
+print("\(someone.name) is \(someone.age) of years reversed")
 
 
 
@@ -88,7 +83,7 @@
 // write your code here
 
 
-
+someone.age -= 1
 
 
 
@@ -99,7 +94,7 @@
 // write your code here
 
 
-
+print("Oh great \(someone.name), let us celebrate your \(someone.age)th reverse year!")
 
 
 
@@ -111,7 +106,7 @@
 // write your code here
 
 
-
+let human = (name: "Jimby Casserole", age: 34)
 
 
 
@@ -120,7 +115,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+print("absolutly not because Jimby is a constant, which means he is imortal")
 
 
 
